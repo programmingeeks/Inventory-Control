@@ -29,10 +29,9 @@ function t=TC(x)
         
         tr=(1-alpha)*(Q-S)*p + alpha*(Q-S)*cs;
         
-        tp= tr-tc;
-        
-        t=tp/T;
+        t=(tr-tc)/T;
         else
             t=100000;
         end
 end
+
